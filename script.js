@@ -13,11 +13,11 @@ function stopTicker()
 }
 
 $(document).ready(function(){
-  interval=setInterval(startTicker, 3000);
+  interval=setInterval(startTicker, 1000);
   $("#news").hover(function(){
     stopTicker();
   },function(){
-      interval = setInterval(startTicker, 3000);
+      interval = setInterval(startTicker, 1000);
       });
   
 });

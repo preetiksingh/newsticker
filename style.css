@@ -1,1 +1,27 @@
-style.css
+body{
+  background-image: url("https://img1.etsystatic.com/032/0/8861958/il_340x270.562778303_innn.jpg");
+  background-image-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ticker {
+  background-color: #a2e5ef;
+  width:250px;
+  height:350px;
+  border:3px solid #b2a6a6;
+  overflow:hidden;
+  border-radius: 15px;
+  margin:0px auto;
+}
+
+ul{
+  margin:1px;
+  padding:1px;
+}
+
+li {
+  text-align: justify;
+  list-style-type: none;
+  border-bottom:2px solid #b2a6a6;
+  height:70px;
+}
